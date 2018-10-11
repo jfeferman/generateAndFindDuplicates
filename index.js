@@ -26,4 +26,5 @@ const N = parseInt(userValue) || DEFAULT_N
 const randomNumberList = buildRandomNumberList(N)
 
 // Run the find duplicates function and print duplicates array to console
-console.log(findDuplicates(randomNumberList))
+const duplicates = findDuplicates(randomNumberList)
+console.log(duplicates)
