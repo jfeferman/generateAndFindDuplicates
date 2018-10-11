@@ -27,4 +27,4 @@ const randomNumberList = buildRandomNumberList(N)
 
 // Run the find duplicates function and print duplicates array to console
 const duplicates = findDuplicates(randomNumberList)
-console.log(duplicates)
+console.log('Found duplicate values: ', duplicates)
