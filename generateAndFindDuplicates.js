@@ -21,8 +21,8 @@ exports.buildRandomNumberList = buildRandomNumberList
 // return an array of filtered items with count of more than one.
 const findDuplicates = (numberList) => {
   const count = numberList => 
-  numberList.reduce((a, b) => 
-    Object.assign(a, {[b]: (a[b] || 0) + 1}), {})
+    numberList.reduce((a, b) => 
+      Object.assign(a, {[b]: (a[b] || 0) + 1}), {})
 
   const duplicates = num => 
     Object.keys(num).filter((a) => num[a] > 1)
