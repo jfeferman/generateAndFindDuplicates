@@ -20,16 +20,14 @@ exports.buildRandomNumberList = buildRandomNumberList
 // Map numberList to obtain a reduced object with key of unique numbers and value of a number's count
 // return an array of filtered items with count of more than one.
 const findDuplicates = (numberList) => {
-  var list = numberList
-    .map((num) => {
-      return { count: 1, num}
-    })
-    .reduce((a, b) => {
-      a[b.num] = (a[b.num] || 0) + b.count
-      return a
-    }, {})
+  const count = numberList => 
+  numberList.reduce((a, b) => 
+    Object.assign(a, {[b]: (a[b] || 0) + 1}), {})
 
-    return Object.keys(list).filter((a) => list[a] > 1)
+  const duplicates = num => 
+    Object.keys(num).filter((a) => num[a] > 1)
+
+  return duplicates(count(numberList))
 }
 exports.findDuplicates = findDuplicates
 
