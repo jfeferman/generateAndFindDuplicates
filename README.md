@@ -8,7 +8,7 @@ The program runs on node.js and can be launched from the command line using:
 `node index.js` where the default value is used, or
 `node index.js [user-value]`, where `[user-value]` is any positive integer supplied by the user.
 
-The reulsting array of duplicate values is printed to the console.
+The resulting array of duplicate values is printed to the console.
 
 Tests cases for module exported functions buildRandomNumberList() and findDuplicates() can be run by issuing the following command:
 
