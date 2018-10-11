@@ -31,7 +31,7 @@ const findDuplicates = (numberList) => {
 }
 exports.findDuplicates = findDuplicates
 
-// Helper to generate a random number where the value is a Number between min and max
+// Helper to generate a random number where the value is a Number from min to max, inclusive
 function generateRandomNumberWithinList(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
