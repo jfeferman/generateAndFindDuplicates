@@ -10,6 +10,6 @@ The program runs on node.js and can be launched from the command line using:
 
 The resulting array of duplicate values is printed to the console.
 
-Tests cases for module exported functions buildRandomNumberList() and findDuplicates() can be run by issuing the following command:
+Test cases for module exported functions buildRandomNumberList() and findDuplicates() can be run by issuing the following command:
 
 `node generateAndFindDuplicates.test.js`
