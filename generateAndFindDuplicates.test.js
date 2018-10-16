@@ -20,3 +20,5 @@ assert.deepEqual(findDuplicates(testArray), expectedResult)
 // Test that the array length is N + 1 when building the random number list
 const N = 4
 assert(buildRandomNumberList(N).length === N + 1)
+
+console.log('Tests passed.')
