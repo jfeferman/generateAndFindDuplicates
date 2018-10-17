@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * Find duplicate numbers within and array of Number values with maximum number N, and size N + 1.
+ * Find duplicate numbers in an array with maximum value N, and size N + 1.
  * This program runs in node using 'node index.js'.
  * If a number is supplied as an argument (e.g. 'node index.js 100' or 'node index.js num=100'), 
  * than the argument is used as the value of N.

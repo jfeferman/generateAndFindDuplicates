@@ -17,8 +17,8 @@ const buildRandomNumberList = (N) => {
 }
 exports.buildRandomNumberList = buildRandomNumberList
 
-// Map numberList to obtain a reduced object with key of unique numbers and value of a number's count
-// return an array of filtered items with count of more than one.
+// Reduce numberList to an object with the number as the key and the number count as the value
+// return a filtered array with numbers that have count greater than one (duplicates).
 const findDuplicates = (numberList) => {
   const count = numberList => 
     numberList.reduce((a, b) => 
